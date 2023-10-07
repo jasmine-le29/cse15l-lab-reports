@@ -11,4 +11,4 @@
 # cat
 <img width="378" alt="Screenshot 2023-10-06 at 10 47 52 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/73fd7ab3-b57e-4648-9893-d4b0160eac30">
 
-- The argument for cat with no arguments is an error display. For the cat function, it is an error since you need an argument for it since there is nothing to display, there will be an error. 
+- The argument for cat with no arguments is an error display. For the cat function, it is an error since you need an argument for it since there is nothing to display, there will be an error. When we call cat lecture1, it displays that it is a working directory. When cat is called with lecture1/README, it displays on how to use it.
