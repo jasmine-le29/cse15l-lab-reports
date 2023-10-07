@@ -1,6 +1,8 @@
 # cd
 ![image](https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/e696aef1-eabb-4f50-b6f6-005ed31e36ed)
 
+- The argument for cd with no arguments remained the same and nothing happened. When cd was called with a path to the cd directory, it moved to lecture1 and now the argument is in "lecture1". Since cd is already in the directory path, we can call a file within lecture1.
+
 # ls
 ![image](https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/246e6273-6a97-4c70-b7d7-ad7242c14720)
 
