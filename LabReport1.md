@@ -21,12 +21,14 @@ This command is run in the home directory. When it is called, it displays lectur
 - **Path to Directory:**
 When we ls into lecture1, we get an output display for all the files and directories contained in lecture1. Essentially it is the same output as the previous command, but the output is more detailed and specialized since we are now in the lecture1 directory. There is no error here.
 - **Path to a File:**
- Calling ls lecture1/README will just display the same content "lecture1/README" as the output. Just like cd, ls does not work on files since files do not contain directories or other files within them. As a result, it just outputs the same input. This is an error.
+Calling ls lecture1/README will just display the same content "lecture1/README" as the output. Just like cd, ls does not work on files since files do not contain directories or other files within them. As a result, it just outputs the same input. This is an error.
 
 # cat
 <img width="378" alt="Screenshot 2023-10-06 at 10 47 52 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/73fd7ab3-b57e-4648-9893-d4b0160eac30">
 
 - **No Arguments:**
+This is the home directory where we just call the function itself "cat". The function is supposed to print the data contained in the file. Since we did not provide a file to follow up after calling the function, there was no output. This is an error.
 - **Path to Directory:**
+ Still remaining in the home directory, we can "lecture1" after cat. Although cat only displays the files given and we gave it a directory this would technically be an error, however, it displayed another output telling us that lecture1 is indeed a directory.
 - **Path to a File:**
-- The argument for cat with no arguments is an error display. For the cat function, it is an error since you need an argument for it since there is nothing to display, there will be an error. When we call cat lecture1, it displays that it is a working directory. When cat is called with lecture1/README, it displays on how to use it.
+We first will call lecture1 then "/README" which is the file I choose cat to display. Since this time we provided a file, the README file was displayed when we called the cat following "lecture1/README". There is no error present.
