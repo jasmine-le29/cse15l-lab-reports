@@ -16,9 +16,17 @@ Since cd is already in the directory path, we can try calling a file within lect
 # ls
 ![image](https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/246e6273-6a97-4c70-b7d7-ad7242c14720)
 
-- The argument for ls with no arguments displays "lecture1" which is the main folder containing all the files and other folders within. When we ls "lecture1", it displays all the the files contained in lecture1. Calling ls lecture1/README, will just display the same content "lecture1/README" as the output. Nothing much happens.
+- **No Arguments:**
+This command is run in the home directory. When it is called, it displays lecture1 since ls is responsible for outputting all the things contained in the working directory. There is no error present. 
+- **Path to Directory:**
+When we ls into lecture1, we get an output display for all the files and directories contained in lecture1. Essentially it is the same output as the previous command, but the output is more detailed and specialized since we are now in the lecture1 directory. There is no error here.
+- **Path to a File:**
+ Calling ls lecture1/README will just display the same content "lecture1/README" as the output. Just like cd, ls does not work on files since files do not contain directories or other files within them. As a result, it just outputs the same input. This is an error.
 
 # cat
 <img width="378" alt="Screenshot 2023-10-06 at 10 47 52 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/73fd7ab3-b57e-4648-9893-d4b0160eac30">
 
+- **No Arguments:**
+- **Path to Directory:**
+- **Path to a File:**
 - The argument for cat with no arguments is an error display. For the cat function, it is an error since you need an argument for it since there is nothing to display, there will be an error. When we call cat lecture1, it displays that it is a working directory. When cat is called with lecture1/README, it displays on how to use it.
