@@ -6,11 +6,11 @@
 # cd
 ![image](https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/e696aef1-eabb-4f50-b6f6-005ed31e36ed)
 
-- No Arguments:
+- **No Arguments:**
 The argument for cd remained the same and nothing happened since it was run in the home directory. Since cd changes the working directory and no directory is called, it doesn't output anything. This output is an error because no directory was provided, meaning no directory to change to.
-- Path to Directory:
+- **Path to Directory:**
 Since cd was run in the home directory, there was no output since cd does not print anything. When we call a path to the cd directory, the path changes, adding "/lecture1" to the end and now the argument is in lecture1. There is no error here.
-- Path to a File:
+- **Path to a File:**
 Since cd is already in the directory path, we can try calling a file within lecture1, for example, when we call "README", it displays "Not a directory". Cd is used to change directories and not files. This gives an error because README is a file and not a directory. 
 
 # ls
