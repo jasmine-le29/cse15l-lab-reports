@@ -15,6 +15,7 @@
 - The values are changed. The task was changed from /add-message?s=Hello to /add-message?s=How are you. Although my first attempt at changing the to "/add-message?s=How are you" it output "How+are+you". I revised that by changing the + to "" shown in the code below. The count changed from 1 to 2 on the new line of the "How are you?" statement. strgCount also changed from "1" to "2".
   
 **StringServer.java Code**
+
 <img width="593" alt="Screenshot 2023-10-21 at 10 40 20 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/c920612a-b707-4c4e-a2f8-201b618ef6ec">
 
 
