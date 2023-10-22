@@ -14,6 +14,7 @@
 # Part 2
 
 
+<img width="982" alt="Screenshot 2023-10-21 at 11 21 04 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/854ecd6c-bd57-4230-a9b0-3ec6067c6764">
 
 
 # Part 3
