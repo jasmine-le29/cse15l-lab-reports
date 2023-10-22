@@ -3,13 +3,17 @@
 # Part 1
 
 <img width="772" alt="Screenshot 2023-10-21 at 10 38 27 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/3bb0470a-3b0b-4c33-a6f3-67815f0889a7">
+
 - The handleRequest and the main method were called for this example above.
-- 
-- 
+- In the method handleRequest, there consists of a parameter called url that takes the URL to the beginning of the path. For Main, there consists of a string parameter "args" used to intake the port number provided. As shown in the screenshot above, I used port 1025 which is the value of the parameter of main. For handleRequest, the parameter is localhost. Some relevant values for this class are count, strg, and strgCount where count is = 0 and strg/strgCount is "" (empty string).
+- For the request in the image shown above, "/add-message?s=Hello" the strg variable is changed from "" to "Hello, count it changed to 1 from 0, strgCount is changed from "" to "1.", and the url is changed followed by the "/add-message?s=Hello" along with the local host and port number.
+  
 <img width="887" alt="Screenshot 2023-10-21 at 10 39 01 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/c429abc6-3658-4368-b46c-769b6374bb05">
+
 - The handleRequest and the main method were called for this example above.
-- 
-- 
+- The relevant arguments for this class are url and arg. The relevant values are strg and strgCount. Since we are asked to output another string with the below it changed the count. The local host and port number remain the same.
+- The values are changed. The task was changed from /add-message?s=Hello to /add-message?s=How are you. Although my first attempt at changing the to "/add-message?s=How are you" it output "How+are+you". I revised that by changing the + to "" shown in the code below. The count changed from 1 to 2 on the new line of the "How are you?" statement. strgCount also changed from "1" to "2".
+  
 **StringServer.java Code**
 <img width="593" alt="Screenshot 2023-10-21 at 10 40 20 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/c920612a-b707-4c4e-a2f8-201b618ef6ec">
 
