@@ -28,11 +28,13 @@ Login without password
 
 Path to public key
 
-<img width="335" alt="Screenshot 2023-10-21 at 11 28 39 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/f7e16f86-fab1-4bc8-b8e6-b109d69af474">
+<img width="556" alt="Screenshot 2023-11-03 at 12 27 57 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/261fc0af-c756-4bfb-bdac-2e40f34be424">
 
 Path to the private key
 
 <img width="355" alt="Screenshot 2023-10-21 at 11 45 28 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/6676ed7d-e463-453d-b913-d6c1c7de8b34">
+
+
 
 
 # Part 3
