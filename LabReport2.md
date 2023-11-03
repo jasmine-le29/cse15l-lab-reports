@@ -32,7 +32,7 @@ Path to public key
 
 Path to the private key
 
-<img width="355" alt="Screenshot 2023-10-21 at 11 45 28 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/6676ed7d-e463-453d-b913-d6c1c7de8b34">
+<img width="337" alt="Screenshot 2023-11-03 at 12 38 38 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/8212e924-79a7-4164-8921-4ef4dccc9b48">
 
 
 
