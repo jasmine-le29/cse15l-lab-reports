@@ -23,6 +23,7 @@ public void testReverseInPlace_Failure() {
 ```
 - The symptom, as the output of running the tests
 
+<img width="906" alt="Screenshot 2023-11-03 at 4 51 19 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/72b68e63-6176-492c-81b6-3e247a2c1028">
 
 - The bug before and after code change required to fix
 
