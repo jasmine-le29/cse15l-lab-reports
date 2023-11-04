@@ -4,7 +4,7 @@
 
 - A failure-inducing input
 ```
- @Test 
+@Test 
 public void testReverseInPlace_Failure() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
@@ -15,11 +15,11 @@ public void testReverseInPlace_Failure() {
 - An input that doesn't induce a failure
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input2 = { 1, 2, 3 };
     assertArrayEquals(new int[]{ 3, 2, 1 },
     ArrayExamples.reversed(input2));
-	}
+}
 ```
 - The symptom, as the output of running the tests
 
