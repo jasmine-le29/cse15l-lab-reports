@@ -2,7 +2,7 @@
 
 # Part 1 - Bugs: ArrayTests - testReverseInPlace method
 
-- A failure-inducing input
+## A failure-inducing input
 ```
 @Test 
 public void testReverseInPlace_Failure() {
@@ -12,7 +12,7 @@ public void testReverseInPlace_Failure() {
 }
 ```
 
-- An input that doesn't induce a failure
+## An input that doesn't induce a failure
 ```
 @Test 
 public void testReverseInPlace() {
@@ -21,16 +21,16 @@ public void testReverseInPlace() {
     ArrayExamples.reversed(input2));
 }
 ```
-- The symptom, as the output of running the tests
+## The symptom, as the output of running the tests
 
-## Error
+- Error
 <img width="906" alt="Screenshot 2023-11-03 at 4 51 19 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/72b68e63-6176-492c-81b6-3e247a2c1028">
 
-## No Error
+- No Error
 <img width="905" alt="Screenshot 2023-11-04 at 11 27 02 AM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/b80d2360-06ff-47dc-8eb3-857e152b7b22">
 
 
-- The bug before and after code change required to fix
+## The bug before and after code change required to fix
 
 Before:
 ```
