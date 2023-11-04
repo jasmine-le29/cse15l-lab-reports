@@ -126,7 +126,7 @@ values were analyzed using one-way (Experiment 2) or
 two-way (Experiments 3 and 4) ANOVA followed by
 ```
 - The command grep -i is an ignore case used to perform a case-insensitive search within a file you are searching for along with the word you are searching for. To use this command, you say grep -i "the word you want" theFileYouWant.txt. This command is useful when you want to search for and print out lines matching whatever you put in quotation marks to help minimize your search.
-Sources:
+- Sources:
 https://www.codingninjas.com/studio/library/grep-command-in-linux
 https://geekflare.com/grep-command-examples/
 https://docs.rackspace.com/docs/use-the-linux-grep-command#:~:text=%2Di%3A%20Prints%20lines%20with%20matching,of%20lines%20with%20matching%20criteria.
@@ -288,7 +288,7 @@ Output:
 ```
 
 - The command grep -r is a command that recursively searches all the files in the directory you are currently present in and matches the desired string you put in quotation marks. It outputs the file in which the word you want is contained and to the left, it outputs the text. To use this command, you say grep -r "the word you want". This command is useful when you want to search for the string within a directory/large directory and it shows which txt file your string is contained in.
-Sources:
+- Sources:
 https://www.codingninjas.com/studio/library/grep-command-in-linux
 https://geekflare.com/grep-command-examples/
 https://docs.rackspace.com/docs/use-the-linux-grep-command#:~:text=%2Di%3A%20Prints%20lines%20with%20matching,of%20lines%20with%20matching%20criteria.
@@ -451,7 +451,7 @@ Output:
 ./technical//911report/chapter-11.txt
 ```
 - The command -l displays the names of the file that is contained in the search text you put in quotations. Doing -l in the current directory with "./*" displays the file within the current directory you are in. Doing grep -rl to a "./technical" at the end displays the recursive list files with the words you placed to search along with the paths it took previously to get there. We use rl instead of -l since we are just in the main directory "dosearch". Without the r, it will result in an error. This command is useful for identifying the files that match with the input you gave it in " " without showing the actual content contained inside.
-Sources:
+- Sources:
 (https://geekflare.com/grep-command-examples/)
 (https://docs.rackspace.com/docs/use-the-linux-grep-command#:~:text=%2Di%3A%20Prints%20lines%20with%20matching,of%20lines%20with%20matching%20criteria.)
 
@@ -491,7 +491,7 @@ do not receive it.
 promote throughout the world.
 ```
 - The command -v "inverts" the math of the string you put in " " when using grep -v " ". In other words, if you don't want a certain word to appear, this is the command for it. As shown in example 2, I didn't want any words that contained the letter "a". When I can the grep -v command, it only displays the contents without the word "A". This command is useful when you want to filter out the lines that you stated in the command in between the quotation marks to help focus on information that is not related to whatever you stated in " ".
-Sources:
+- Sources:
 (https://www.codingninjas.com/studio/library/grep-command-in-linux)
 (https://geekflare.com/grep-command-examples/)
 (https://docs.rackspace.com/docs/use-the-linux-grep-command#:~:text=%2Di%3A%20Prints%20lines%20with%20matching,of%20lines%20with%20matching%20criteria.)
