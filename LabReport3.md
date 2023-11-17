@@ -70,7 +70,7 @@ After:
   }
 ```
 
-- For the method `reverseInPlace`, before fixing the code, it loops through the entire array from `index 1` to `arr.length - 1`. It reassigns the element many times resulting in overwritting the original files. The fix of adding `arr.length/2`, this loops through half of the array starting from `index 0`. In order to correctly reverse the array, a temp variable is added to store the element at the end of the array and assign it to the correct first position. For the reversed method, before fixing the code, since the code is returning `arr`, it was returning the original modified version which is not the same for reversing the array. The fix of creating a new array which is used to store the reversed values. This `newArray` variable is then returned, which reverses the correct output we want.
+- For the method `reverseInPlace`, before fixing the code, it loops through the entire array from `index 1` to `arr.length - 1`. It reassigns the element many times resulting in overwritting the original files. The fix of adding `arr.length/2`, this loops through half of the array starting from `index 0`. In order to correctly reverse the array, a temp variable is added to store the element at the end of the array and assign it to the correct first position. For the `reversed` method, before fixing the code, since the code is returning `arr`, it was returning the original modified version which is not the same for reversing the array. The fix of creating a new array which is used to store the `reversed` values. This `newArray` variable is then returned, which reverses the correct output we want.
 
 # Part 2 - Researching Commands(grep): 
 
@@ -286,7 +286,7 @@ Output:
 ./technical/911report/chapter-8.txt:                extensive record, including documents that were not available to the CIA personnel
 ```
 
-- The command `grep -r` is a command that recursively searches all the files in the directory you are currently present in and matches the desired string you put in quotation marks. It outputs the file in which the word you want is contained and to the left, it outputs the text. To use this command, you say `grep -r "the word you want"`. This command is useful when you want to search for the string within a `directory/large directory` and it shows which txt file your string is contained in.
+- The command `grep -r` is a command that recursively searches all the files in the directory you are currently present in and matches the desired string you put in quotation marks. It outputs the file in which the word you want is contained and to the left, it outputs the text. To use this command, you say `grep -r "the word you want"`. This command is useful when you want to search for the string within a `directory/large directory` and it shows which `txt` file your string is contained in.
 - Sources:
 https://www.codingninjas.com/studio/library/grep-command-in-linux
 https://geekflare.com/grep-command-examples/
@@ -449,7 +449,7 @@ Output:
 ./technical//911report/chapter-8.txt
 ./technical//911report/chapter-11.txt
 ```
-- The command `-l` displays the names of the file that is contained in the search text you put in quotations. Doing -l in the current directory with "./*" displays the file within the current directory you are in. Doing `grep -rl` to a `./technical` at the end displays the recursive list files with the words you placed to search along with the paths it took previously to get there. We use `rl` instead of `-l` since we are just in the main directory `dosearch`. Without the `r`, it will result in an error. This command is useful for identifying the files that match with the input you gave it in " " without showing the actual content contained inside.
+- The command `-l` displays the names of the file that is contained in the search text you put in quotations. Doing `-l` in the current directory with `./*` displays the file within the current directory you are in. Doing `grep -rl` to a `./technical` at the end displays the recursive list files with the words you placed to search along with the paths it took previously to get there. We use `rl` instead of `-l` since we are just in the main directory `dosearch`. Without the `r`, it will result in an error. This command is useful for identifying the files that match with the input you gave it in " " without showing the actual content contained inside.
 - Sources:
 https://geekflare.com/grep-command-examples/
 https://docs.rackspace.com/docs/use-the-linux-grep-command#:~:text=%2Di%3A%20Prints%20lines%20with%20matching,of%20lines%20with%20matching%20criteria.
@@ -489,7 +489,7 @@ serves income- eligible clients in eight counties throughout the
 do not receive it.
 promote throughout the world.
 ```
-- The command `-v` "inverts" the math of the string you put in " " when using `grep -v " "`. In other words, if you don't want a certain word to appear, this is the command for it. As shown in example 2, I didn't want any words that contained the letter "a". When I can the `grep -v` command, it only displays the contents without the word "A". This command is useful when you want to filter out the lines that you stated in the command in between the quotation marks to help focus on information that is not related to whatever you stated in " ".
+- The command `-v` "inverts" the math of the string you put in " " when using `grep -v " "`. In other words, if you don't want a certain word to appear, this is the command for it. As shown in example 2, I didn't want any words that contained the letter `"a"`. When I can the `grep -v` command, it only displays the contents without the word "A". This command is useful when you want to filter out the lines that you stated in the command in between the quotation marks to help focus on information that is not related to whatever you stated in " ".
 - Sources:
 https://www.codingninjas.com/studio/library/grep-command-in-linux
 https://geekflare.com/grep-command-examples/
