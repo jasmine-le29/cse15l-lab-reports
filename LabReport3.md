@@ -6,19 +6,18 @@
 ```
 @Test 
 public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-}
+    int[] input1 = { 1, 2, 3 };
+    assertArrayEquals(new int[]{ 3, 2, 1 },
+    ArrayExamples.reversed(input1));
 ```
 
 ## An input that doesn't induce a failure
 ```
 @Test 
-public void testReverseInPlace() {
-    int[] input2 = { 1, 2, 3 };
-    assertArrayEquals(new int[]{ 3, 2, 1 },
-    ArrayExamples.reversed(input2));
+public void testReverseInPlace_Success() {
+    int[] input2 = { 3 };
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{ 3 }, input2);
 }
 ```
 ## The symptom, as the output of running the tests
