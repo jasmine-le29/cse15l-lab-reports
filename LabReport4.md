@@ -6,7 +6,9 @@
 `<up> <enter>`
 
 ### Clone your fork of the repository from your Github account (using the SSH URL): 
+<img width="551" alt="Screenshot 2023-11-19 at 4 26 59 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/2e63408c-3c12-458e-88c3-7dbb2ab70d36">
 
+`<Ctrl> r g <enter> `
 ### Run the tests, demonstrating that they fail: 
 
 ### Edit the code file to fix the failing test:
