@@ -10,6 +10,10 @@
 
 `<Ctrl> r g <enter> `
 ### Run the tests, demonstrating that they fail: 
+<img width="627" alt="Screenshot 2023-11-19 at 4 37 02 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/e1876110-0951-40cc-8bb3-a6d11b731304">
+
+`cd l <tab>`
+`bash t <tab> <enter>`
 
 ### Edit the code file to fix the failing test:
 
