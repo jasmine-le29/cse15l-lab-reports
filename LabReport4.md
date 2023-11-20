@@ -22,6 +22,7 @@
 - `vim <space> <shift> L <tab> . <tab> <enter>`
 
 <img width="371" alt="Screenshot 2023-11-19 at 4 53 58 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/5e8279cc-8d72-45ea-9db8-92d41bb7ddba">
+
 - `:44 <enter> e r 2`
 - `:wq <enter>`
 
