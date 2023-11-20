@@ -31,7 +31,10 @@
 
 ### Commit and push the resulting change to your Github account (you can pick any commit message!):
 <img width="510" alt="Screenshot 2023-11-19 at 5 04 44 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/b7ef024d-4311-4f68-a0c2-31979e2df864">
+
 - `<ctrl> r git com <enter>`
 - `lab 7 revise <esc> :wq <enter>`
+
 <img width="716" alt="Screenshot 2023-11-19 at 5 05 42 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/5ec2e4d1-be99-432f-8bea-cb63ca0cba28">
+
 - `<ctrl> r git pu <enter>`
