@@ -45,7 +45,7 @@
 - `<ctrl> r git add <enter>`
 - `git com -m "Updated Version" <enter>`
 - Using `<ctrl> r` to search through the command line recursively in the command history for the commit function `git com` followed by the `<enter>` key.
-- Once you enter `vim` again, you change your commit message. In this case, I changed mine to "lab 7 revise". Use `:wq` followed by `<enter>` key to save changes. This should display that it committed to the GitHub after you save and quit.
+- Once you enter `vim` again, you change your commit message. In this case, I changed mine to "Updated Version". Use `:wq` followed by `<enter>` key to save changes. This should display that it committed to the GitHub after you save and quit.
 
 <img width="716" alt="Screenshot 2023-11-19 at 5 05 42 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/5ec2e4d1-be99-432f-8bea-cb63ca0cba28">
 
