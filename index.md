@@ -6,3 +6,4 @@ Hi, my name is Jasmine! Welcome to my GitHub Pages where I will be posting my la
 
 [Lab Report 3:] https://jasmine-le29.github.io/cse15l-lab-reports/LabReport3
 
+[Lab Report 4:] https://jasmine-le29.github.io/cse15l-lab-reports/LabReport4
