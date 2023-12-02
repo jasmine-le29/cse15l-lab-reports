@@ -39,10 +39,11 @@
 <img width="330" alt="Screenshot 2023-11-19 at 4 55 40 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/2f99606e-db94-49fd-b3df-c3586d287a47">
 
 ### Commit and push the resulting change to your Github account (you can pick any commit message!):
-<img width="510" alt="Screenshot 2023-11-19 at 5 04 44 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/b7ef024d-4311-4f68-a0c2-31979e2df864">
 
-- `<ctrl> r git com <enter>`
-- `lab 7 revise <esc> :wq <enter>`
+<img width="502" alt="Screenshot 2023-12-02 at 2 33 14 AM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/f61b8582-a360-4dff-8f98-07b9296f2547">
+
+- `<ctrl> r git add <enter>`
+- `git com -m "Updated Version" <enter>`
 - Using `<ctrl> r` to search through the command line recursively in the command history for the commit function `git com` followed by the `<enter>` key.
 - Once you enter `vim` again, you change your commit message. In this case, I changed mine to "lab 7 revise". Use `:wq` followed by `<enter>` key to save changes. This should display that it committed to the GitHub after you save and quit.
 
