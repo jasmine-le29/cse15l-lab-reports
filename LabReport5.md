@@ -5,7 +5,7 @@
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is:
 
 #### Student Post:
-- Hi, I need help to understand why my code is compiling so many errors. When I run `bash test.sh`, I get errors and a test has failed. I think that the error has something to do with my variables `index1 = 0` and `index2 = 0` it should be in square brackets `[]` so it should be 'index[1] = 0` and `index[2] = 0` since we are declaring an array. 
+- Hi, I need help to understand why my code is compiling so many errors. When I run `bash test.sh`, I get errors and a test has failed. I think that the error has something to do with my variables `index1 = 0` and `index2 = 0` it should be in square brackets `[]` so it should be `index[1] = 0` and `index[2] = 0` since we are declaring an array. 
 
 <img width="582" alt="Screenshot 2023-12-02 at 9 55 10 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/372f59c7-6c3f-4ee0-8b28-a8780de011f9">
 
@@ -18,6 +18,7 @@
 - Based on the feedback you gave for my errors with my code, I decided to move the variables `index1` and `index2` out of the `if` statement and declare it outside of the initial `while` loop before it gets nested into other `if` statements and `while` loops below so that when `index1` and `index2` are called below, they would be initialized at once before the start of the while loops. Having the variables declared after the while loop and in the `if` statement, it does not have access to the variables outside the `if` statements and in the following `while` loops after that.
 
 <img width="571" alt="Screenshot 2023-12-02 at 10 00 07 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/1a125fcf-3784-446f-b68d-1674d7d0f4ec">
+<img width="355" alt="Screenshot 2023-12-02 at 10 36 20 PM" src="https://github.com/jasmine-le29/cse15l-lab-reports/assets/116687332/4d02fd17-289e-47e2-bd37-a367c081c713">
 
 #### At the end, all the information needed about the setup:
 1.  The file & directory structure needed
